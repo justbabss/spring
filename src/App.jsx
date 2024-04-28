@@ -12,13 +12,12 @@ function App() {
       <section>
         <div className='bg-[#F6DA6F] h-full w-full'>
           <Navbar/>
-          <Home/>
         </div>
         <div>
           <Switch>
-            {/* <Route exact path="/" >
-              <Home/>
-            </Route> */}
+            <Route exact path="/" >
+              <Home />
+            </Route>
             <Route exact path="/Contact" >
               <Contact/>
             </Route>

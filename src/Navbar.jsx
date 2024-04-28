@@ -14,11 +14,11 @@ const Navbar = () => {
     <>
       <nav className="flex justify-between items-center mx-[1.5rem] md:mx-[5rem]">
         <a href="/">
-          <div className="mt-[2.1rem]">
+          <div className="my-[2.1rem]">
             <img src={spring} alt="Logo" />
           </div>
         </a>
-        <div className="hidden md:flex justify-around gap-[3rem] items-center mt-[2rem] text-[1.1rem]">
+        <div className="hidden md:flex justify-around gap-[3rem] items-center mt-[0.9rem] text-[1.1rem]">
           <Link to="/">Home</Link>
           <Link to="/Contact">Contact</Link>
           <Link to="/About">About</Link>

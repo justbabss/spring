@@ -4,8 +4,8 @@ import LayoutImg from './assets/LayoutImg.png'
 
 const Home = () => {
   return (
-    <section className=" md:flex justify-between gap-[10rem] mt-[5rem] mx-[1.5rem] md:mx-[5rem]">
-      <div>
+    <section className=" md:flex justify-between gap-[5rem] bg-[#F6DA6F] h-full w-full'">
+      <div className=' mt-[5rem] mx-[1.5rem] md:mx-[5rem]'>
         <h1 className=" font-bold text-[2.5rem] md:text-[2.8rem] w-[30rem]">We Build <br /> Experiences <br /> For Your Clients</h1>
         <p className=" font-normal text-[0.9rem] mt-[1rem]">Revolver Template is a professional webflow <br /> template with multifile sections that you can <br /> fullly customize</p>
         <h4 className=" text-[0.7rem] mt-[8rem] mb-[0.8rem]">quickrakibull@gmail.com</h4>
@@ -13,10 +13,10 @@ const Home = () => {
         <button className=" flex bg-black text-white p-[0.3rem] rounded-full px-4 mt-6">Get Free Trail</button> 
       </div>
 
-      <div>
-        <img src={HomeImg} alt=""  className='w-[33rem] mt-10 md:mt-0'/>
+      <div className=' mt-[5rem] mx-[1.5rem] md:mx-[5rem]'>
+        <img src={HomeImg} alt=""  className='w-[33rem] mt-10 md:mt-0' />
 
-        <div className=' md:flex justify-between gap-[3rem] md:ml-[2rem] mt-[3rem]'>
+        <div className=' md:flex justify-between gap-[3rem] md:ml-[2rem] my-[3.2rem]'>
           <div>
             <img src={LayoutImg} alt="" className=' w-[1.7rem]' />
             <p className=' font-bold mt-3'>Layout Design</p>
