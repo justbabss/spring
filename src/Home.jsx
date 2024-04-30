@@ -3,6 +3,8 @@ import GraphicsImg from './assets/GraphicsImg.png'
 import LayoutImg from './assets/LayoutImg.png'
 import Description from './description';
 import Services from './services';
+import About from './About';
+import Faq from './Faq';
 
 const Home = () => {
   return (
@@ -37,6 +39,8 @@ const Home = () => {
     </section>
     <Description/>
     <Services/>
+    <About/>
+    <Faq/>
     </>
   );
 }

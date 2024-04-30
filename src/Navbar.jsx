@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="hidden md:flex justify-around gap-[3rem] items-center mt-[0.9rem] text-[1.1rem]">
           <Link to="/">Home</Link>
           <Link to="/Contact">Contact</Link>
-          <Link to="/About">About</Link>
+          <Link to="/Pricing">Pricing</Link>
 
           <div>
             <button className="flex bg-black text-white p-[0.5rem] rounded-full px-3 mt-[-0.6rem]">
@@ -45,7 +45,7 @@ const Navbar = () => {
           <div className="flex flex-col justify-around gap-[3rem] mt-[2rem] ml-8 text-[1.1rem]">
             <Link to="/">Home</Link>
             <Link to="/Contact">Contact</Link>
-            <Link to="/About">About</Link>
+            <Link to="/Pricing">Pricing</Link>
 
             <div>
               <button className="flex bg-[#F6DA6F] text-black p-[0.4rem] rounded-full px-3">
