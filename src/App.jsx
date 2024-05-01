@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import Contact from './Contact'
 import Footer from './Footer'
-import Pricing from './pricing'
+import Pricing from './Pricing'
 
 
 function App() {
