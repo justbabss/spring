@@ -5,7 +5,7 @@ const Description = () => {
         <section className='mx-[1.5rem] md:mx-[2rem]'>
             <div className=' md:flex justify-around'>
                
-                <img src={DesImg} alt="" className=' w-[23rem] h-[20rem] mt-[4rem] md:mt-[3rem]'/>
+                <img src={DesImg} alt="" className=' w-[23rem] h-[20rem] mt-[-2rem] md:mt-[3rem]'/>
 
                 <div className=' mt-[2rem] md:mt-[11rem]'>
                     <h2 className=' font-bold md:text-[1.8rem] text-[1.8rem]'>Welcome</h2>
